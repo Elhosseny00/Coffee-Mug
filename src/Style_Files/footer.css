@@ -1,0 +1,73 @@
+:root {
+  --light-brown: #c17009;
+  --dark-brown: #452b1b;
+  --black-color: #090504;
+  --white-color: #f5f5f5;
+  --margin: 60px 0;
+  --transition: 0.5s;
+  --font-family: 'Kaushan Script', cursive;
+}
+
+footer {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--white-color);
+}
+
+footer .logo {
+  font-size: 40px;
+  font-family: var(--font-family);
+  color: var(--light-brown);
+  font-weight: bold;
+}
+
+footer .socail {
+  display: flex;
+  margin: 30px 0;
+  gap: 15px;
+}
+
+footer .socail li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+footer .socail li:nth-child(1) {
+  background-color: #3b5998;
+}
+
+footer .socail li:nth-child(2) {
+  background-color: #1D9BF0;
+}
+
+footer .socail li:nth-child(3) {
+  background-color: #833AB4;
+}
+
+footer .socail li:nth-child(4) {
+  background-color: #CD201F;
+}
+
+footer .socail li:nth-child(5) {
+  background-color: #56687a;
+}
+
+footer .socail li a {
+  color: var(--white-color);
+}
+
+footer .about-me p {
+  color: var(--black-color);
+}

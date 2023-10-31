@@ -1,0 +1,83 @@
+:root {
+  --light-brown: #c17009;
+  --dark-brown: #452b1b;
+  --black-color: #090504;
+  --white-color: #f5f5f5;
+  --margin: 60px 0;
+  --transition: 0.5s;
+  --font-family: 'Kaushan Script', cursive;
+}
+
+.services .container .cards {
+  margin: var(--margin);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.services .container .cards .card {
+  padding: 12px;
+  text-align: center;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.services .container .cards .card::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background-color: var(--black-color);
+  border-bottom-left-radius: 20px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  z-index: -1;
+}
+
+.services .container .cards .card:hover::after {
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 0;
+}
+
+.services .container .cards .card img {
+  width: 50px;
+}
+
+.services .container .cards .card .text {
+  margin: 12px 0;
+
+}
+
+.services .container .cards .card .text h4 {
+  margin-bottom: 10px;
+  color: var(--black-color);
+}
+
+.services .container .cards .card .text p {
+  color: #666;
+  font-size: 14px;
+}
+
+.services .container .cards .card:hover p,
+.services .container .cards .card:hover h4 {
+  color: var(--white-color);
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}

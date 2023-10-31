@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --light-brown: #c17009;
+  --dark-brown: #452b1b;
+  --black-color: #090504;
+  --white-color: #f5f5f5;
+  --section-color: #ebebeb;
+  --margin: 60px 0;
+  --transition: 0.5s;
+  --font-family: 'Kaushan Script', cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:focus {
+  outline: none;
+}
+
+::placeholder {
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+
+.container {
+  padding: 50px 35px;
+}
+
+.header {
+  width: fit-content;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.header h3 {
+  text-transform: capitalize;
+  color: var(--dark-brown);
+  font-family: var(--font-family);
+}

@@ -1,0 +1,162 @@
+:root {
+  --light-brown: #c17009;
+  --dark-brown: #452b1b;
+  --black-color: #090504;
+  --white-color: #f5f5f5;
+  --margin: 60px 0;
+  --transition: 0.5s;
+  --font-family: 'Kaushan Script', cursive;
+}
+
+.contact .container .contact-wrapper {
+  margin: var(--margin);
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  width: 100%;
+}
+
+.contact .container .contact-wrapper .contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+}
+
+.contact .container .contact-wrapper .contact-info .box {
+  width: 100%;
+  padding:  20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.contact .container .contact-wrapper .contact-info .box .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--light-brown);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.contact .container .contact-wrapper .contact-info .box .icon i {
+  color: var(--white-color);
+}
+
+.contact .container .contact-wrapper .contact-info .box .info h4 {
+  color: var(--black-color);
+}
+
+.contact .container .contact-wrapper .contact-info .box .info span {
+  color: #666;
+}
+
+.contact .container .contact-wrapper .send-message {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 30px 20px;
+  width: calc(100% - 300px);
+}
+
+.contact .container .contact-wrapper .send-message h3 {
+  color: var(--black-color);
+}
+
+.contact .container .contact-wrapper .send-message form {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact .container .contact-wrapper .send-message form input {
+  height: 45px;
+  padding: 0 12px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border: 1px solid var(--black-color);
+  color: var(--black-color);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contact .container .contact-wrapper .send-message form textarea {
+  resize: none;
+  height: 100px;
+  padding: 12px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border: 1px solid var(--black-color);
+  color: var(--black-color);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contact .container .contact-wrapper .send-message form button {
+  height: 45px;
+  width: 50%;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  color: var(--white-color);
+  font-size: 20px;
+  font-weight: bold;
+  background-color: var(--light-brown);
+  border: none;
+  cursor: pointer;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.contact .container .contact-wrapper .send-message form button:hover {
+  background-color: var(--dark-brown);
+}
+
+@media (max-width: 767px) {
+  .contact .container .contact-wrapper {
+    flex-direction: column;
+  }
+
+  .contact .container .contact-wrapper .contact-info .box .info h4 {
+    font-size: 15px;
+  }
+
+  .contact .container .contact-wrapper .contact-info .box .info span {
+    color: #666;
+    font-size: 14px;
+
+  }
+
+  .contact .container .contact-wrapper .contact-info {
+
+    width: 100%;
+  }
+
+  .contact .container .contact-wrapper .send-message {
+
+    width: 100%;
+  }
+
+}

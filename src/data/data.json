@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Coffee Machine",
+    "price": 900,
+    "description": "Japanese Coffee Making Machine",
+    "category": "Electrical",
+    "image": "/IMAGES/machine-1.webp"
+  },
+  {
+    "id": 2,
+    "name": "Coffee Machine",
+    "price": 650,
+    "description": "Brazilian Coffee Making Machine",
+    "category": "Electrical",
+    "image": "/IMAGES/machine-2.webp"
+  },
+  {
+    "id": 3,
+    "name": "Coffee Mug",
+    "price": 55,
+    "description": "A Thermal Cup For Coffee And Hot Drinks",
+    "category": "Mug",
+    "image": "/IMAGES/mug-1.webp"
+  },
+  {
+    "id": 4,
+    "name": "Coffee Mug",
+    "price": 30,
+    "description": "A Thermal Cup For Coffee And Hot Drinks",
+    "category": "Mug",
+    "image": "/IMAGES/mug-2.webp"
+  },
+  {
+    "id": 5,
+    "name": "Coffee Beans",
+    "price": 150,
+    "description": "Arabic Coffee From Arab Land",
+    "category": "Beans",
+    "image": "/IMAGES/Beans-1.webp"
+  },
+  {
+    "id": 6,
+    "name": "Coffee Beans",
+    "price": 200,
+    "description": "Espresso Lenient",
+    "category": "Beans",
+    "image": "/IMAGES/Beans-2.webp"
+  },
+  {
+    "id": 7,
+    "name": "Coffee Kanaka",
+    "price": 25,
+    "description": "Kanaka To Make Cup Of Coffee",
+    "category": "Coffee Machine",
+    "image": "/IMAGES/kanka-1.webp"
+  },
+  {
+    "id": 8,
+    "name": "Coffee Kanaka",
+    "price": 30,
+    "description": "Kanaka To Make Cup Of Coffee",
+    "category": "Coffee Machine",
+    "image": "/IMAGES/kanka-2.webp"
+  }
+]
